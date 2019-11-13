@@ -4,7 +4,7 @@
   "description": "Enable other React components to be selectable by drawing a box with your mouse/touch",
   "repository": {
     "type": "git",
-    "url": "git://github.com/valerybugakov/react-selectable-fast.git"
+    "url": "git://github.com/Studio384/selectable.git"
   },
   "main": "lib/index.js",
   "scripts": {
@@ -36,7 +36,7 @@
     }
   },
   "bugs": {
-    "url": "https://github.com/valerybugakov/react-selectable-fast/issues"
+    "url": "https://github.com/Studio384/selectable/issues"
   },
   "engines": {
     "node": ">8.0.0"
@@ -52,16 +52,16 @@
     "touch",
     "react"
   ],
-  "author": "Valery Bugakov <skymk1@gmail.com> (https://github.com/valerybugakov/)",
+  "author": "Valery Bugakov <skymk1@gmail.com> (https://github.com/Studio384)",
   "contributors": [
-    "Valery Bugakov <skymk1@gmail.com> (https://github.com/valerybugakov/)"
+    "Valery Bugakov <skymk1@gmail.com> (https://github.com/Studio384)"
   ],
   "license": "MIT",
   "files": [
     "lib",
     "dist"
   ],
-  "homepage": "https://github.com/valerybugakov/react-selectable-fast#readme",
+  "homepage": "https://github.com/Studio384/selectable#readme",
   "directories": {
     "example": "example",
     "lib": "lib"
