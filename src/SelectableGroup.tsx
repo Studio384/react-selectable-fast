@@ -200,8 +200,6 @@ class SelectableGroup extends Component<TSelectableGroupProps> {
     this.registry.delete(selectableItem)
     this.selectedItems.delete(selectableItem)
     this.selectingItems.delete(selectableItem)
-
-    this.props.onSelectionFinish!([...this.selectedItems])
   }
 
   toggleSelectionMode() {
