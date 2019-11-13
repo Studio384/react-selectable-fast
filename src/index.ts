@@ -1,9 +1,3 @@
-import SelectableGroup from './SelectableGroup'
-import createSelectable from './CreateSelectable'
-import SelectAll from './SelectAll'
-import DeselectAll from './DeselectAll'
-import { TSelectableItemProps } from './Selectable.types'
-
 // As early as possible, check for the existence of the JavaScript globals which
 // package Runtime relies upon, and produce a clear message if they do not exist.
 if (process.env.NODE_ENV === 'development') {
@@ -22,4 +16,8 @@ if (process.env.NODE_ENV === 'development') {
   }
 }
 
-export { TSelectableItemProps, SelectableGroup, createSelectable, SelectAll, DeselectAll }
+export { default as SelectableGroup } from './SelectableGroup'
+export { default as createSelectable } from './CreateSelectable'
+export { default as SelectAll } from './SelectAll'
+export { default as DeselectAll } from './DeselectAll'
+export { default as TSelectableItemProps } from './Selectable.types'

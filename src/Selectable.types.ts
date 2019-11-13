@@ -30,3 +30,5 @@ export type TSelectableItem = Component & {
 export type TSelectableItemProps = TSelectableItemState & {
   selectableRef(node: HTMLElement | null): void
 }
+
+export default TSelectableItemProps
